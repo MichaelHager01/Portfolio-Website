@@ -1,5 +1,29 @@
-# Portfolio-Website
+# Portfolio website
 
-This is the code used to decorate and create my previous portfolio website. I took an online course to dive deeper into HTML, CSS, and JavaScript. In this course, we built a basic website. With this foundation code, I was able to customize it to my liking and create my own personal portfolio website. I will link the course I took for the base code down below. Hope you enjoy my portfolio website and the code associated with it. The "style.css" does have some excess code, but I am choosing to leave that for when I add content to my portfolio website later down the road.
+A one-page personal site with a home section, a services section, and a short about section.
 
-https://scrimba.com/learn/portfolio
+## What it does
+
+- The page is static HTML and CSS, with a nav toggle in `src/index.js`.
+- It started from the Scrimba portfolio course and was restyled after that.
+- `src/index.html` still points at `img/mhager.jpg` and `img/mbhhead2.jpeg`. Those image files are not in this repository, so the photos render as broken until you add an `src/img/` directory.
+
+## Layout
+
+- `src/index.html` — page structure
+- `src/style.css` — layout and type
+- `src/index.js` — opens and closes the navigation
+
+## Run
+
+Open `src/index.html` in a browser. From the repository root:
+
+```bash
+python -m http.server 8765
+```
+
+Then visit `http://127.0.0.1:8765/src/`.
+
+## Stack
+
+HTML, CSS, and JavaScript.
